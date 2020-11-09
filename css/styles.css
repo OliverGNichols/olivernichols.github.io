@@ -1,0 +1,38 @@
+img {
+    width:100%;
+    height:auto;
+}
+h1 {
+    color: red;
+}
+p {
+    color: yellow;
+    background-color: blue;
+    padding: 5px;
+}
+nav {
+    background-color: 3D5B8F;
+    height: 100px;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    padding: 10px;
+    background-color:8DA1C2;
+}
+
+section.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section.container a {
+    flex-basis: 300px;
+}
+
+a:link, a:hover, a:visited {
+    color:CBF1F5;
+}
+
