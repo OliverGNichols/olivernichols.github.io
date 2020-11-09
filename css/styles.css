@@ -2,8 +2,12 @@ img {
     width:100%;
     height:auto;
 }
+body {
+background-color: aqua;
+}
 h1 {
     color: red;
+    font: 1em sans-serif;
 }
 p {
     color: yellow;
@@ -11,7 +15,7 @@ p {
     padding: 5px;
 }
 nav {
-    background-color: 3D5B8F;
+    background-color: #3D5B8F;
     height: 100px;
 }
 ul {
@@ -20,7 +24,7 @@ ul {
 li {
     display: inline-block;
     padding: 10px;
-    background-color:8DA1C2;
+    background-color:#8DA1C2;
 }
 
 section.container {
@@ -33,6 +37,6 @@ section.container a {
 }
 
 a:link, a:hover, a:visited {
-    color:CBF1F5;
+    color:#CBF1F5;
 }
 
